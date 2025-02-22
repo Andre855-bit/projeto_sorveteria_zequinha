@@ -9,3 +9,15 @@ C:\Users\Laboratorio-Info\Documents\Visual Studio 2022\EmpresaABC\SoverteriaZequ
 C:\Users\Laboratorio-Info\Documents\Visual Studio 2022\EmpresaABC\SoverteriaZequinha\obj\Debug\SoverteriaZequinha.exe
 C:\Users\Laboratorio-Info\Documents\Visual Studio 2022\EmpresaABC\SoverteriaZequinha\obj\Debug\SoverteriaZequinha.pdb
 C:\Users\Laboratorio-Info\Documents\Visual Studio 2022\EmpresaABC\SoverteriaZequinha\obj\Debug\SoverteriaZequinha.frmLogin.resources
+C:\Users\Laboratorio-Info\Documents\Visual Studio 2022\projeto_sorveteria_zequinha\SoverteriaZequinha\bin\Debug\SoverteriaZequinha.exe.config
+C:\Users\Laboratorio-Info\Documents\Visual Studio 2022\projeto_sorveteria_zequinha\SoverteriaZequinha\bin\Debug\SoverteriaZequinha.exe
+C:\Users\Laboratorio-Info\Documents\Visual Studio 2022\projeto_sorveteria_zequinha\SoverteriaZequinha\bin\Debug\SoverteriaZequinha.pdb
+C:\Users\Laboratorio-Info\Documents\Visual Studio 2022\projeto_sorveteria_zequinha\SoverteriaZequinha\obj\Debug\SoverteriaZequinha.csproj.AssemblyReference.cache
+C:\Users\Laboratorio-Info\Documents\Visual Studio 2022\projeto_sorveteria_zequinha\SoverteriaZequinha\obj\Debug\SoverteriaZequinha.frmLogin.resources
+C:\Users\Laboratorio-Info\Documents\Visual Studio 2022\projeto_sorveteria_zequinha\SoverteriaZequinha\obj\Debug\SoverteriaZequinha.frmMenuPrincipal.resources
+C:\Users\Laboratorio-Info\Documents\Visual Studio 2022\projeto_sorveteria_zequinha\SoverteriaZequinha\obj\Debug\SoverteriaZequinha.frmSplash.resources
+C:\Users\Laboratorio-Info\Documents\Visual Studio 2022\projeto_sorveteria_zequinha\SoverteriaZequinha\obj\Debug\SoverteriaZequinha.Properties.Resources.resources
+C:\Users\Laboratorio-Info\Documents\Visual Studio 2022\projeto_sorveteria_zequinha\SoverteriaZequinha\obj\Debug\SoverteriaZequinha.csproj.GenerateResource.cache
+C:\Users\Laboratorio-Info\Documents\Visual Studio 2022\projeto_sorveteria_zequinha\SoverteriaZequinha\obj\Debug\SoverteriaZequinha.csproj.CoreCompileInputs.cache
+C:\Users\Laboratorio-Info\Documents\Visual Studio 2022\projeto_sorveteria_zequinha\SoverteriaZequinha\obj\Debug\SoverteriaZequinha.exe
+C:\Users\Laboratorio-Info\Documents\Visual Studio 2022\projeto_sorveteria_zequinha\SoverteriaZequinha\obj\Debug\SoverteriaZequinha.pdb
