@@ -29,12 +29,15 @@ namespace SoverteriaZequinha
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            frmMenuPrincipal abrir = new frmMenuPrincipal();
+            abrir.Show();
+            this.Hide();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-
+            //this.Close();
+            Application.Exit();
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
