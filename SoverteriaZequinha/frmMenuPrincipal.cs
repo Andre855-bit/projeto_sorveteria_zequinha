@@ -19,7 +19,9 @@ namespace SoverteriaZequinha
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            frmFuncionarios abrir = new frmFuncionarios();
+            abrir.Show();
+            this.Hide();
         }
 
         private void button8_Click(object sender, EventArgs e)
