@@ -29,9 +29,24 @@ namespace SoverteriaZequinha
 
         private void frmSplash_Load(object sender, EventArgs e)
         {
-            frmLogin abrir = new frmLogin();
-            abrir.Show();
-            this.Hide();
+            
+        }
+
+        private void tmrSplash_Tick(object sender, EventArgs e)
+        {
+            if (pgbSplash.Value < 100)
+            {
+                pgbSplash.Value = pgbSplash.Value + 1;
+                lblNumero.Text = pgbSplash.Value.ToString() + "%";
+                
+            }
+            else
+            {
+                tmrSplash.Enabled = false;
+                frmLogin abrir = new frmLogin();
+                abrir.Show();
+                this.Hide();
+            }
         }
     }
 }

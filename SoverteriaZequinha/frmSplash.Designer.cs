@@ -28,11 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmSplash));
             this.pcbSplash = new System.Windows.Forms.PictureBox();
             this.lblNumero = new System.Windows.Forms.Label();
-            this.lblPorcentagem = new System.Windows.Forms.Label();
             this.pgbSplash = new System.Windows.Forms.ProgressBar();
+            this.tmrSplash = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.pcbSplash)).BeginInit();
             this.SuspendLayout();
             // 
@@ -51,29 +52,24 @@
             // 
             this.lblNumero.AutoSize = true;
             this.lblNumero.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNumero.Location = new System.Drawing.Point(387, 296);
+            this.lblNumero.Location = new System.Drawing.Point(399, 295);
             this.lblNumero.Name = "lblNumero";
-            this.lblNumero.Size = new System.Drawing.Size(18, 20);
+            this.lblNumero.Size = new System.Drawing.Size(0, 20);
             this.lblNumero.TabIndex = 1;
-            this.lblNumero.Text = "0";
             this.lblNumero.Click += new System.EventHandler(this.label1_Click);
-            // 
-            // lblPorcentagem
-            // 
-            this.lblPorcentagem.AutoSize = true;
-            this.lblPorcentagem.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPorcentagem.Location = new System.Drawing.Point(407, 296);
-            this.lblPorcentagem.Name = "lblPorcentagem";
-            this.lblPorcentagem.Size = new System.Drawing.Size(23, 20);
-            this.lblPorcentagem.TabIndex = 2;
-            this.lblPorcentagem.Text = "%";
             // 
             // pgbSplash
             // 
-            this.pgbSplash.Location = new System.Drawing.Point(133, 332);
+            this.pgbSplash.Location = new System.Drawing.Point(127, 333);
             this.pgbSplash.Name = "pgbSplash";
             this.pgbSplash.Size = new System.Drawing.Size(548, 23);
+            this.pgbSplash.Style = System.Windows.Forms.ProgressBarStyle.Continuous;
             this.pgbSplash.TabIndex = 3;
+            // 
+            // tmrSplash
+            // 
+            this.tmrSplash.Enabled = true;
+            this.tmrSplash.Tick += new System.EventHandler(this.tmrSplash_Tick);
             // 
             // frmSplash
             // 
@@ -81,7 +77,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(784, 561);
             this.Controls.Add(this.pgbSplash);
-            this.Controls.Add(this.lblPorcentagem);
             this.Controls.Add(this.lblNumero);
             this.Controls.Add(this.pcbSplash);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
@@ -101,7 +96,7 @@
 
         private System.Windows.Forms.PictureBox pcbSplash;
         private System.Windows.Forms.Label lblNumero;
-        private System.Windows.Forms.Label lblPorcentagem;
         private System.Windows.Forms.ProgressBar pgbSplash;
+        private System.Windows.Forms.Timer tmrSplash;
     }
 }

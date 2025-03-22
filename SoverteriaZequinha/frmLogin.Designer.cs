@@ -48,6 +48,7 @@
             this.txtUsuario.Size = new System.Drawing.Size(232, 26);
             this.txtUsuario.TabIndex = 0;
             this.txtUsuario.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.txtUsuario.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtUsuario_KeyDown);
             // 
             // lblUsuario
             // 
@@ -81,6 +82,7 @@
             this.txtSenha.Size = new System.Drawing.Size(232, 25);
             this.txtSenha.TabIndex = 1;
             this.txtSenha.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+            this.txtSenha.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtSenha_KeyDown);
             // 
             // pcbLogo
             // 

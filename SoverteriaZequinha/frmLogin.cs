@@ -29,9 +29,33 @@ namespace SoverteriaZequinha
 
         private void button1_Click(object sender, EventArgs e)
         {
-            frmMenuPrincipal abrir = new frmMenuPrincipal();
-            abrir.Show();
-            this.Hide();
+
+            string usuario, senha;
+
+            usuario = "calabreso";
+            senha = "1234";
+
+            if (txtUsuario.Text.Trim().Equals(usuario) && txtSenha.Text.Trim().Equals(senha)) {
+
+                frmMenuPrincipal abrir = new frmMenuPrincipal();
+                abrir.Show();
+                this.Hide();
+
+            } else {
+
+                MessageBox.Show("Usuario ou senha errados!", "Mensagem do sistema", MessageBoxButtons.YesNoCancel, MessageBoxIcon.Error, MessageBoxDefaultButton.Button2);
+                limparCampos();
+
+            }
+
+        }
+
+        public void limparCampos() {
+
+            txtSenha.Clear();
+            txtUsuario.Clear();
+            txtUsuario.Focus();
+        
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -52,7 +76,25 @@ namespace SoverteriaZequinha
 
         private void textBox2_TextChanged(object sender, EventArgs e)
         {
+            
+        }
 
+        private void txtUsuario_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter) { 
+            
+                txtSenha.Focus();
+            
+            }
+        }
+
+        private void txtSenha_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter) {
+
+                btnEntrar.Focus();
+            
+            }
         }
     }
 }
