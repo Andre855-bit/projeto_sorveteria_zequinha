@@ -15,6 +15,8 @@ namespace SoverteriaZequinha
         public frmFuncionarios()
         {
             InitializeComponent();
+            //executando método desabilitar campos
+            desabilitandoCampos();
         }
 
         private void label2_Click(object sender, EventArgs e)
@@ -131,7 +133,21 @@ namespace SoverteriaZequinha
 
         private void button2_Click(object sender, EventArgs e)
         {
+            if (txtNome.Text.Equals("")
+                || txtEmail.Text.Equals("")
+                 || mskCPF.Text.Equals("   .   .   -")
+                 || cbbFuncao.Text.Equals("")
+                 || mskTelefona.Text.Equals("     -")
+                 || mskCEP.Text.Equals("     -")
+                 || txtComplemento.Text.Equals("")
+                 || txtLogradouro.Text.Equals("")
+                 || txtCidade.Text.Equals("")
+                 || txtNumero.Text.Equals(""))
 
+            {
+                MessageBox.Show("Favor inserir valores!!!");
+
+            }
         }
 
         private void button4_Click(object sender, EventArgs e)
@@ -213,7 +229,7 @@ namespace SoverteriaZequinha
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            habilitandoCampos();
         }
 
         private void groupBox1_Enter(object sender, EventArgs e)
@@ -223,6 +239,59 @@ namespace SoverteriaZequinha
 
         private void groupBox2_Enter(object sender, EventArgs e)
         {
+
+        }
+
+        //desabilitando os compomentes
+
+        public void desabilitandoCampos()
+        {
+            txtNome.Enabled = false;
+            txtEmail.Enabled = false;
+            txtLogradouro.Enabled = false;
+            txtCidade.Enabled = false;
+            txtCodigo.Enabled = false;
+            txtComplemento.Enabled = false;
+            txtNumero.Enabled = false;
+            mskCEP.Enabled = false;
+            mskCPF.Enabled = false;
+            mskTelefona.Enabled = false;
+            cbbEstado.Enabled = false;
+            cbbFuncao.Enabled = false;
+            cbbUF.Enabled = false;
+
+            dtpDataNasc.Enabled = false;
+
+            btnAlterar.Enabled = false;
+            btnCadastrar.Enabled = false;
+            btnExcluir.Enabled = false;
+            btnLimpar.Enabled = false;
+
+        }
+
+        public void habilitandoCampos()
+        {
+            txtNome.Enabled = true;
+            txtEmail.Enabled = true;
+            txtLogradouro.Enabled = true;
+            txtCidade.Enabled = true;
+            txtCodigo.Enabled = false;
+            txtComplemento.Enabled = true;
+            txtNumero.Enabled = true;
+            mskCEP.Enabled = true;
+            mskCPF.Enabled = true;
+            mskTelefona.Enabled = true;
+            cbbEstado.Enabled = true;
+            cbbFuncao.Enabled = true;
+            cbbUF.Enabled = true;
+
+            dtpDataNasc.Enabled = true;
+
+            btnAlterar.Enabled = false;
+            btnCadastrar.Enabled = true;
+            btnExcluir.Enabled = false;
+            btnLimpar.Enabled = true;
+            btnNovo.Enabled = false;
 
         }
     }
