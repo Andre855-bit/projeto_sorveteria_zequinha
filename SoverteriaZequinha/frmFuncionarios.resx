@@ -121,7 +121,7 @@
   <data name="btnVoltar.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAA
-        rAAAAKwBhgk01AAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAGXSURBVEhLzdZL
+        qwAAAKsB1E2SqwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAGXSURBVEhLzdZL
         KAVRHMfxS2ShlPKMFRuW2NsoVhZWHisLioWFQsmGlETKCnmElZ3YWMmChbBQlFdJhJXyKM+8vr951G2a
         acZtpvzqU3NOc8+Z8z9nphv7TylBvXkZftrwjAejFWKysIIfXOAJoaUK17hHA7oRygSp6McXNlAIJZQJ
         SrGPd/QgGXY68Y0DLKAVmQgceyNPUaEOR7LRhQnsQSt8s9r58Iw2chXayBmkI0jyMIhHqHSNcM05tPQm
@@ -134,7 +134,7 @@
   <data name="btnLimpar.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAA
-        rAAAAKwBhgk01AAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAIeSURBVEhL7dVN
+        qwAAAKsB1E2SqwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAIeSURBVEhL7dVN
         iE5RHMfxy3ipEZEslSkWCGUh8rYxQ1bYKBR5Ky/DJG9lwZaFl4QF00h5S3kLK4WkpEghIhNCNlbW4vs9
         517u3Od57nMbW7/6NOc8PXPPec75n3OTimnBYXzDO3RiMCqnDetwIPSSZAuu4xQ24AguoxV+9wJeYSGa
         5i7e4hiW+AEZg/lYifP4jtHIZzYeYVrolWRs+rdRLmFrbDbMUYyIzfoZiQVYg42YCTMHLzEo9P5mGFxO
@@ -150,7 +150,7 @@
   <data name="btnPesuisar.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAA
-        rAAAAKwBhgk01AAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAGZSURBVEhLxdXL
+        qwAAAKsB1E2SqwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAGZSURBVEhLxdXL
         K6VxHMfxgxBFoimasho7K9K4DFnYucRiinJJLNRQsxjXmMmlXIYtsfEHzCwoYSO5lA3/ib2t95tz6nRy
         Zp7neORTr85znjrf7+/5XZ4Te68UohM/MIluFOHVycJ33GIBX9GBaVxjDjnIKBbfxxJy8QWzmEcbLGzz
         v/Hr0PHHKyjBCXbRjhas4QwVGMciQsU5v0MBDuD8p6YGp/DpLlCGwLHgKhqw5400+YkujGHQG0HjTunB
@@ -189,7 +189,7 @@
   <data name="btnCadastrar.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAA
-        rAAAAKwBhgk01AAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAILSURBVEhLrdbN
+        qwAAAKsB1E2SqwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAILSURBVEhLrdbN
         SxVRHMbxiSgKCrNIItCiQCJMAkUEKcFNCyEKEhF0K0RUSGqgIogg6sZFb4rkC7bRneZbvqIWRK3aunIp
         /RV9nzP3TMdzh9vMtQc+eGa4c39zZ37nHANyHztYz9MmBmEzga9oMUdkBefCYd6Zwk10QgVOYxUma5m/
         NrfxC3F3K9/wHG760YVpfMRPvIWJX6AOw7jhuArlOh5gxBz9jQocoNgcBUEtfsPciF+gALpAz9XqwCkM

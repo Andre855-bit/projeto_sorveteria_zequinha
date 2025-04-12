@@ -3,36 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Laboratorio-Info\\Documents\\Visual Studio 2022\\projeto_sorveteria_zequinha\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FF6F5193-38F8-4A33-A6BE-8E9FEB033F68}|SoverteriaZequinha\\SoverteriaZequinha.csproj|c:\\users\\laboratorio-info\\documents\\visual studio 2022\\projeto_sorveteria_zequinha\\soverteriazequinha\\frmfuncionarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF6F5193-38F8-4A33-A6BE-8E9FEB033F68}|SoverteriaZequinha\\SoverteriaZequinha.csproj|solutionrelative:soverteriazequinha\\frmfuncionarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FF6F5193-38F8-4A33-A6BE-8E9FEB033F68}|SoverteriaZequinha\\SoverteriaZequinha.csproj|c:\\users\\laboratorio-info\\documents\\visual studio 2022\\projeto_sorveteria_zequinha\\soverteriazequinha\\frmfuncionarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{FF6F5193-38F8-4A33-A6BE-8E9FEB033F68}|SoverteriaZequinha\\SoverteriaZequinha.csproj|solutionrelative:soverteriazequinha\\frmfuncionarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FF6F5193-38F8-4A33-A6BE-8E9FEB033F68}|SoverteriaZequinha\\SoverteriaZequinha.csproj|C:\\Users\\Laboratorio-Info\\Documents\\Visual Studio 2022\\projeto_sorveteria_zequinha\\soverteriazequinha\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF6F5193-38F8-4A33-A6BE-8E9FEB033F68}|SoverteriaZequinha\\SoverteriaZequinha.csproj|solutionrelative:soverteriazequinha\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FF6F5193-38F8-4A33-A6BE-8E9FEB033F68}|SoverteriaZequinha\\SoverteriaZequinha.csproj|c:\\users\\laboratorio-info\\documents\\visual studio 2022\\projeto_sorveteria_zequinha\\soverteriazequinha\\frmfuncionarios.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF6F5193-38F8-4A33-A6BE-8E9FEB033F68}|SoverteriaZequinha\\SoverteriaZequinha.csproj|solutionrelative:soverteriazequinha\\frmfuncionarios.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FF6F5193-38F8-4A33-A6BE-8E9FEB033F68}|SoverteriaZequinha\\SoverteriaZequinha.csproj|c:\\users\\laboratorio-info\\documents\\visual studio 2022\\projeto_sorveteria_zequinha\\soverteriazequinha\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FF6F5193-38F8-4A33-A6BE-8E9FEB033F68}|SoverteriaZequinha\\SoverteriaZequinha.csproj|solutionrelative:soverteriazequinha\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FF6F5193-38F8-4A33-A6BE-8E9FEB033F68}|SoverteriaZequinha\\SoverteriaZequinha.csproj|C:\\Users\\Laboratorio-Info\\Documents\\Visual Studio 2022\\projeto_sorveteria_zequinha\\soverteriazequinha\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF6F5193-38F8-4A33-A6BE-8E9FEB033F68}|SoverteriaZequinha\\SoverteriaZequinha.csproj|solutionrelative:soverteriazequinha\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FF6F5193-38F8-4A33-A6BE-8E9FEB033F68}|SoverteriaZequinha\\SoverteriaZequinha.csproj|C:\\Users\\Laboratorio-Info\\Documents\\Visual Studio 2022\\projeto_sorveteria_zequinha\\soverteriazequinha\\frmsplash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF6F5193-38F8-4A33-A6BE-8E9FEB033F68}|SoverteriaZequinha\\SoverteriaZequinha.csproj|solutionrelative:soverteriazequinha\\frmsplash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FF6F5193-38F8-4A33-A6BE-8E9FEB033F68}|SoverteriaZequinha\\SoverteriaZequinha.csproj|C:\\Users\\Laboratorio-Info\\Documents\\Visual Studio 2022\\projeto_sorveteria_zequinha\\soverteriazequinha\\frmsplash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FF6F5193-38F8-4A33-A6BE-8E9FEB033F68}|SoverteriaZequinha\\SoverteriaZequinha.csproj|solutionrelative:soverteriazequinha\\frmsplash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{FF6F5193-38F8-4A33-A6BE-8E9FEB033F68}|SoverteriaZequinha\\SoverteriaZequinha.csproj|c:\\users\\laboratorio-info\\documents\\visual studio 2022\\projeto_sorveteria_zequinha\\soverteriazequinha\\frmfuncionarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF6F5193-38F8-4A33-A6BE-8E9FEB033F68}|SoverteriaZequinha\\SoverteriaZequinha.csproj|solutionrelative:soverteriazequinha\\frmfuncionarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -45,109 +21,29 @@
           "SelectedChildIndex": 1,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "frmFuncionarios.cs",
               "DocumentMoniker": "C:\\Users\\Laboratorio-Info\\Documents\\Visual Studio 2022\\projeto_sorveteria_zequinha\\SoverteriaZequinha\\frmFuncionarios.cs",
               "RelativeDocumentMoniker": "SoverteriaZequinha\\frmFuncionarios.cs",
               "ToolTip": "C:\\Users\\Laboratorio-Info\\Documents\\Visual Studio 2022\\projeto_sorveteria_zequinha\\SoverteriaZequinha\\frmFuncionarios.cs",
               "RelativeToolTip": "SoverteriaZequinha\\frmFuncionarios.cs",
-              "ViewState": "AgIAAIEAAAAAAAAAAAASwJAAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAEwBAAAAAAAAAAAswGEBAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-05T00:04:56.635Z",
+              "WhenOpened": "2025-04-12T00:15:41.79Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "frmFuncionarios.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Laboratorio-Info\\Documents\\Visual Studio 2022\\projeto_sorveteria_zequinha\\SoverteriaZequinha\\frmFuncionarios.cs",
               "RelativeDocumentMoniker": "SoverteriaZequinha\\frmFuncionarios.cs",
               "ToolTip": "C:\\Users\\Laboratorio-Info\\Documents\\Visual Studio 2022\\projeto_sorveteria_zequinha\\SoverteriaZequinha\\frmFuncionarios.cs [Design]",
               "RelativeToolTip": "SoverteriaZequinha\\frmFuncionarios.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-05T00:04:51.608Z",
+              "WhenOpened": "2025-04-12T00:15:39.772Z",
               "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "frmFuncionarios.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Laboratorio-Info\\Documents\\Visual Studio 2022\\projeto_sorveteria_zequinha\\SoverteriaZequinha\\frmFuncionarios.Designer.cs",
-              "RelativeDocumentMoniker": "SoverteriaZequinha\\frmFuncionarios.Designer.cs",
-              "ToolTip": "C:\\Users\\Laboratorio-Info\\Documents\\Visual Studio 2022\\projeto_sorveteria_zequinha\\SoverteriaZequinha\\frmFuncionarios.Designer.cs",
-              "RelativeToolTip": "SoverteriaZequinha\\frmFuncionarios.Designer.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-05T00:04:41.916Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "frmLogin.cs",
-              "DocumentMoniker": "C:\\Users\\Laboratorio-Info\\Documents\\Visual Studio 2022\\projeto_sorveteria_zequinha\\SoverteriaZequinha\\frmLogin.cs",
-              "RelativeDocumentMoniker": "SoverteriaZequinha\\frmLogin.cs",
-              "ToolTip": "C:\\Users\\Laboratorio-Info\\Documents\\Visual Studio 2022\\projeto_sorveteria_zequinha\\SoverteriaZequinha\\frmLogin.cs",
-              "RelativeToolTip": "SoverteriaZequinha\\frmLogin.cs",
-              "ViewState": "AgIAAEcAAAAAAAAAAAAswFEAAABGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-22T00:40:18.826Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "frmLogin.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Laboratorio-Info\\Documents\\Visual Studio 2022\\projeto_sorveteria_zequinha\\SoverteriaZequinha\\frmLogin.cs",
-              "RelativeDocumentMoniker": "SoverteriaZequinha\\frmLogin.cs",
-              "ToolTip": "C:\\Users\\Laboratorio-Info\\Documents\\Visual Studio 2022\\projeto_sorveteria_zequinha\\SoverteriaZequinha\\frmLogin.cs [Design]",
-              "RelativeToolTip": "SoverteriaZequinha\\frmLogin.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-22T00:40:15.18Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "frmSplash.cs",
-              "DocumentMoniker": "C:\\Users\\Laboratorio-Info\\Documents\\Visual Studio 2022\\projeto_sorveteria_zequinha\\SoverteriaZequinha\\frmSplash.cs",
-              "RelativeDocumentMoniker": "SoverteriaZequinha\\frmSplash.cs",
-              "ToolTip": "C:\\Users\\Laboratorio-Info\\Documents\\Visual Studio 2022\\projeto_sorveteria_zequinha\\SoverteriaZequinha\\frmSplash.cs",
-              "RelativeToolTip": "SoverteriaZequinha\\frmSplash.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAswB8AAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-22T00:08:21.504Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "frmSplash.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Laboratorio-Info\\Documents\\Visual Studio 2022\\projeto_sorveteria_zequinha\\SoverteriaZequinha\\frmSplash.cs",
-              "RelativeDocumentMoniker": "SoverteriaZequinha\\frmSplash.cs",
-              "ToolTip": "C:\\Users\\Laboratorio-Info\\Documents\\Visual Studio 2022\\projeto_sorveteria_zequinha\\SoverteriaZequinha\\frmSplash.cs [Design]",
-              "RelativeToolTip": "SoverteriaZequinha\\frmSplash.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-22T00:00:53.145Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Laboratorio-Info\\Documents\\Visual Studio 2022\\projeto_sorveteria_zequinha\\SoverteriaZequinha\\Program.cs",
-              "RelativeDocumentMoniker": "SoverteriaZequinha\\Program.cs",
-              "ToolTip": "C:\\Users\\Laboratorio-Info\\Documents\\Visual Studio 2022\\projeto_sorveteria_zequinha\\SoverteriaZequinha\\Program.cs",
-              "RelativeToolTip": "SoverteriaZequinha\\Program.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T23:58:30.689Z",
-              "EditorCaption": ""
             }
           ]
         }

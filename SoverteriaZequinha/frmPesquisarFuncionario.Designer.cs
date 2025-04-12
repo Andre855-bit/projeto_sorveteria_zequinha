@@ -30,10 +30,10 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmPesquisarFuncionario));
             this.gpbPesquisarPor = new System.Windows.Forms.GroupBox();
-            this.rdbCodigo = new System.Windows.Forms.RadioButton();
-            this.rdbNome = new System.Windows.Forms.RadioButton();
-            this.txtDescricao = new System.Windows.Forms.TextBox();
             this.lblDescricao = new System.Windows.Forms.Label();
+            this.txtDescricao = new System.Windows.Forms.TextBox();
+            this.rdbNome = new System.Windows.Forms.RadioButton();
+            this.rdbCodigo = new System.Windows.Forms.RadioButton();
             this.ltbPesquisar = new System.Windows.Forms.ListBox();
             this.brnPesquisar = new System.Windows.Forms.Button();
             this.btnLimpar = new System.Windows.Forms.Button();
@@ -55,17 +55,23 @@
             this.gpbPesquisarPor.Text = "Pesquisar por";
             this.gpbPesquisarPor.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
-            // rdbCodigo
+            // lblDescricao
             // 
-            this.rdbCodigo.AutoSize = true;
-            this.rdbCodigo.Location = new System.Drawing.Point(18, 25);
-            this.rdbCodigo.Name = "rdbCodigo";
-            this.rdbCodigo.Size = new System.Drawing.Size(77, 24);
-            this.rdbCodigo.TabIndex = 1;
-            this.rdbCodigo.TabStop = true;
-            this.rdbCodigo.Text = "Código";
-            this.rdbCodigo.UseVisualStyleBackColor = true;
-            this.rdbCodigo.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
+            this.lblDescricao.AutoSize = true;
+            this.lblDescricao.Location = new System.Drawing.Point(14, 58);
+            this.lblDescricao.Name = "lblDescricao";
+            this.lblDescricao.Size = new System.Drawing.Size(80, 20);
+            this.lblDescricao.TabIndex = 3;
+            this.lblDescricao.Text = "Descrição";
+            this.lblDescricao.Click += new System.EventHandler(this.label1_Click);
+            // 
+            // txtDescricao
+            // 
+            this.txtDescricao.Location = new System.Drawing.Point(91, 55);
+            this.txtDescricao.MaxLength = 100;
+            this.txtDescricao.Name = "txtDescricao";
+            this.txtDescricao.Size = new System.Drawing.Size(199, 26);
+            this.txtDescricao.TabIndex = 3;
             // 
             // rdbNome
             // 
@@ -78,23 +84,17 @@
             this.rdbNome.Text = "Nome";
             this.rdbNome.UseVisualStyleBackColor = true;
             // 
-            // txtDescricao
+            // rdbCodigo
             // 
-            this.txtDescricao.Location = new System.Drawing.Point(91, 55);
-            this.txtDescricao.MaxLength = 100;
-            this.txtDescricao.Name = "txtDescricao";
-            this.txtDescricao.Size = new System.Drawing.Size(199, 26);
-            this.txtDescricao.TabIndex = 3;
-            // 
-            // lblDescricao
-            // 
-            this.lblDescricao.AutoSize = true;
-            this.lblDescricao.Location = new System.Drawing.Point(14, 58);
-            this.lblDescricao.Name = "lblDescricao";
-            this.lblDescricao.Size = new System.Drawing.Size(80, 20);
-            this.lblDescricao.TabIndex = 3;
-            this.lblDescricao.Text = "Descrição";
-            this.lblDescricao.Click += new System.EventHandler(this.label1_Click);
+            this.rdbCodigo.AutoSize = true;
+            this.rdbCodigo.Location = new System.Drawing.Point(18, 25);
+            this.rdbCodigo.Name = "rdbCodigo";
+            this.rdbCodigo.Size = new System.Drawing.Size(77, 24);
+            this.rdbCodigo.TabIndex = 1;
+            this.rdbCodigo.TabStop = true;
+            this.rdbCodigo.Text = "Código";
+            this.rdbCodigo.UseVisualStyleBackColor = true;
+            this.rdbCodigo.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
             // 
             // ltbPesquisar
             // 
@@ -148,6 +148,7 @@
             this.Name = "frmPesquisarFuncionario";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "EmpresaABC - Pesquisar funcionário";
+            this.Load += new System.EventHandler(this.frmPesquisarFuncionario_Load);
             this.gpbPesquisarPor.ResumeLayout(false);
             this.gpbPesquisarPor.PerformLayout();
             this.ResumeLayout(false);

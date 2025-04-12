@@ -134,6 +134,7 @@
             this.MinimizeBox = false;
             this.Name = "frmLogin";
             this.Text = "EmpresaABC - Login";
+            this.Load += new System.EventHandler(this.frmLogin_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pcbLogo)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

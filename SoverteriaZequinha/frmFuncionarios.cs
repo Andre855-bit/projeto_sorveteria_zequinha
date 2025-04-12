@@ -7,11 +7,24 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Runtime.InteropServices;
+using MosaicoSolutions.ViaCep;
+
 
 namespace SoverteriaZequinha
 {
     public partial class frmFuncionarios : Form
     {
+
+        //Criando variáveis para controle do menu
+        const int MF_BYCOMMAND = 0X400;
+        [DllImport("user32")]
+        static extern int RemoveMenu(IntPtr hMenu, int nPosition, int wFlags);
+        [DllImport("user32")]
+        static extern IntPtr GetSystemMenu(IntPtr hWnd, bool bRevert);
+        [DllImport("user32")]
+        static extern int GetMenuItemCount(IntPtr hWnd);
+
         public frmFuncionarios()
         {
             InitializeComponent();
@@ -128,7 +141,9 @@ namespace SoverteriaZequinha
 
         private void frmFuncionarios_Load(object sender, EventArgs e)
         {
-
+            IntPtr hMenu = GetSystemMenu(this.Handle, false);
+            int MenuCount = GetMenuItemCount(hMenu) - 1;
+            RemoveMenu(hMenu, MenuCount, MF_BYCOMMAND);
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -142,7 +157,8 @@ namespace SoverteriaZequinha
                  || txtComplemento.Text.Equals("")
                  || txtLogradouro.Text.Equals("")
                  || txtCidade.Text.Equals("")
-                 || txtNumero.Text.Equals(""))
+                 || txtNumero.Text.Equals("")
+                 || txtBairro.Text.Equals(""))
 
             {
                 MessageBox.Show("Favor inserir valores!!!");
@@ -242,6 +258,22 @@ namespace SoverteriaZequinha
 
         }
 
+        //Criando um método de busca cep
+
+        public void buscaCEP(string cep) {
+
+            var viaCEPService = ViaCepService.Default();
+
+            var endereco = viaCEPService.ObterEndereco(cep);
+            txtLogradouro.Text = endereco.Logradouro;
+            txtCidade.Text = endereco.Localidade;
+            txtComplemento.Text = endereco.Complemento;
+            cbbUF.Text = endereco.UF;
+            cbbEstado.Text = endereco.UF;
+            txtBairro.Text = endereco.Bairro;
+        }
+
+
         //desabilitando os compomentes
 
         public void desabilitandoCampos()
@@ -259,6 +291,7 @@ namespace SoverteriaZequinha
             cbbEstado.Enabled = false;
             cbbFuncao.Enabled = false;
             cbbUF.Enabled = false;
+            txtBairro.Enabled = false;
 
             dtpDataNasc.Enabled = false;
 
@@ -284,6 +317,7 @@ namespace SoverteriaZequinha
             cbbEstado.Enabled = true;
             cbbFuncao.Enabled = true;
             cbbUF.Enabled = true;
+            txtBairro.Enabled = true;
 
             dtpDataNasc.Enabled = true;
 
@@ -293,6 +327,33 @@ namespace SoverteriaZequinha
             btnLimpar.Enabled = true;
             btnNovo.Enabled = false;
 
+        }
+
+        private void mskCEP_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                //buscando o endereço pelo CEP
+                buscaCEP(mskCEP.Text);
+                txtNumero.Focus();
+            }
+        }
+
+        private void label3_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtNumero_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter) { 
+                txtComplemento.Focus();
+            }
         }
     }
 }

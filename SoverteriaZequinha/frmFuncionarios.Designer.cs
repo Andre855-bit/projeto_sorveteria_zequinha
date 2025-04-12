@@ -67,6 +67,8 @@
             this.btnAlterar = new System.Windows.Forms.Button();
             this.btnCadastrar = new System.Windows.Forms.Button();
             this.btnNovo = new System.Windows.Forms.Button();
+            this.txtBairro = new System.Windows.Forms.TextBox();
+            this.lblBairro = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.pnlCRUD.SuspendLayout();
@@ -277,6 +279,8 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.txtBairro);
+            this.groupBox2.Controls.Add(this.lblBairro);
             this.groupBox2.Controls.Add(this.txtLogradouro);
             this.groupBox2.Controls.Add(this.lblLogradouro);
             this.groupBox2.Controls.Add(this.cbbUF);
@@ -306,11 +310,11 @@
             // txtLogradouro
             // 
             this.txtLogradouro.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtLogradouro.Location = new System.Drawing.Point(300, 40);
+            this.txtLogradouro.Location = new System.Drawing.Point(239, 37);
             this.txtLogradouro.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtLogradouro.MaxLength = 100;
             this.txtLogradouro.Name = "txtLogradouro";
-            this.txtLogradouro.Size = new System.Drawing.Size(275, 22);
+            this.txtLogradouro.Size = new System.Drawing.Size(183, 22);
             this.txtLogradouro.TabIndex = 9;
             this.txtLogradouro.UseWaitCursor = true;
             this.txtLogradouro.TextChanged += new System.EventHandler(this.textBox7_TextChanged);
@@ -319,7 +323,7 @@
             // 
             this.lblLogradouro.AutoSize = true;
             this.lblLogradouro.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblLogradouro.Location = new System.Drawing.Point(222, 42);
+            this.lblLogradouro.Location = new System.Drawing.Point(161, 40);
             this.lblLogradouro.Name = "lblLogradouro";
             this.lblLogradouro.Size = new System.Drawing.Size(77, 16);
             this.lblLogradouro.TabIndex = 22;
@@ -361,7 +365,7 @@
             "São Paulo (SP)",
             "Sergipe (SE)",
             "Tocantins (TO)"});
-            this.cbbUF.Location = new System.Drawing.Point(628, 38);
+            this.cbbUF.Location = new System.Drawing.Point(628, 36);
             this.cbbUF.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.cbbUF.Name = "cbbUF";
             this.cbbUF.Size = new System.Drawing.Size(84, 24);
@@ -373,7 +377,7 @@
             // 
             this.lblUF.AutoSize = true;
             this.lblUF.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblUF.Location = new System.Drawing.Point(581, 40);
+            this.lblUF.Location = new System.Drawing.Point(597, 40);
             this.lblUF.Name = "lblUF";
             this.lblUF.Size = new System.Drawing.Size(25, 16);
             this.lblUF.TabIndex = 20;
@@ -384,14 +388,15 @@
             // txtNumero
             // 
             this.txtNumero.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNumero.Location = new System.Drawing.Point(84, 38);
+            this.txtNumero.Location = new System.Drawing.Point(84, 37);
             this.txtNumero.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtNumero.MaxLength = 5;
             this.txtNumero.Name = "txtNumero";
-            this.txtNumero.Size = new System.Drawing.Size(132, 22);
+            this.txtNumero.Size = new System.Drawing.Size(71, 22);
             this.txtNumero.TabIndex = 8;
             this.txtNumero.UseWaitCursor = true;
             this.txtNumero.TextChanged += new System.EventHandler(this.textBox6_TextChanged);
+            this.txtNumero.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtNumero_KeyDown);
             // 
             // lblNumero
             // 
@@ -492,6 +497,7 @@
             this.mskCEP.TabIndex = 11;
             this.mskCEP.UseWaitCursor = true;
             this.mskCEP.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.maskedTextBox4_MaskInputRejected);
+            this.mskCEP.KeyDown += new System.Windows.Forms.KeyEventHandler(this.mskCEP_KeyDown);
             // 
             // lblCEP
             // 
@@ -521,7 +527,7 @@
             // 
             this.lblComplemento.AutoSize = true;
             this.lblComplemento.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblComplemento.Location = new System.Drawing.Point(350, 74);
+            this.lblComplemento.Location = new System.Drawing.Point(355, 74);
             this.lblComplemento.Name = "lblComplemento";
             this.lblComplemento.Size = new System.Drawing.Size(91, 16);
             this.lblComplemento.TabIndex = 2;
@@ -660,6 +666,31 @@
             this.btnNovo.UseWaitCursor = true;
             this.btnNovo.Click += new System.EventHandler(this.button1_Click);
             // 
+            // txtBairro
+            // 
+            this.txtBairro.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtBairro.Location = new System.Drawing.Point(468, 37);
+            this.txtBairro.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtBairro.MaxLength = 50;
+            this.txtBairro.Name = "txtBairro";
+            this.txtBairro.Size = new System.Drawing.Size(123, 22);
+            this.txtBairro.TabIndex = 24;
+            this.txtBairro.UseWaitCursor = true;
+            this.txtBairro.TextChanged += new System.EventHandler(this.textBox1_TextChanged_1);
+            // 
+            // lblBairro
+            // 
+            this.lblBairro.AutoSize = true;
+            this.lblBairro.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblBairro.Location = new System.Drawing.Point(425, 40);
+            this.lblBairro.Name = "lblBairro";
+            this.lblBairro.Size = new System.Drawing.Size(43, 16);
+            this.lblBairro.TabIndex = 23;
+            this.lblBairro.Text = "Bairro";
+            this.lblBairro.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            this.lblBairro.UseWaitCursor = true;
+            this.lblBairro.Click += new System.EventHandler(this.label3_Click_1);
+            // 
             // frmFuncionarios
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -727,5 +758,7 @@
         private System.Windows.Forms.Button btnNovo;
         private System.Windows.Forms.Button btnVoltar;
         private System.Windows.Forms.Button btnLimpar;
+        private System.Windows.Forms.TextBox txtBairro;
+        private System.Windows.Forms.Label lblBairro;
     }
 }
