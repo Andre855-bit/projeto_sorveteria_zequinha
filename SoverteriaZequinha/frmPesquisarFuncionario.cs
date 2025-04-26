@@ -28,6 +28,12 @@ namespace SoverteriaZequinha
             InitializeComponent();
         }
 
+        public frmPesquisarFuncionario(string nome)
+        {
+            InitializeComponent();
+            txtDescricao.Text = nome;
+        }
+
         private void groupBox1_Enter(object sender, EventArgs e)
         {
 
@@ -48,6 +54,19 @@ namespace SoverteriaZequinha
             IntPtr hMenu = GetSystemMenu(this.Handle, false);
             int MenuCount = GetMenuItemCount(hMenu) - 1;
             RemoveMenu(hMenu, MenuCount, MF_BYCOMMAND);
+        }
+
+        private void brnPesquisar_Click(object sender, EventArgs e)
+        {
+            ltbPesquisar.Items.Add(txtDescricao.Text);
+        }
+
+        private void ltbPesquisar_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            string nome = ltbPesquisar.SelectedItem.ToString();
+            frmFuncionarios abrir = new frmFuncionarios(nome);
+            abrir.Show();
+            this.Hide();
         }
     }
 }

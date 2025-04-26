@@ -32,6 +32,14 @@ namespace SoverteriaZequinha
             desabilitandoCampos();
         }
 
+        public frmFuncionarios(string nome)
+        {
+            InitializeComponent();
+            //executando método desabilitar campos
+            desabilitandoCampos();
+            txtNome.Text = nome;
+        }
+
         private void label2_Click(object sender, EventArgs e)
         {
 

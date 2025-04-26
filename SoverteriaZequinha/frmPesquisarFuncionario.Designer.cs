@@ -103,6 +103,7 @@
             this.ltbPesquisar.Name = "ltbPesquisar";
             this.ltbPesquisar.Size = new System.Drawing.Size(510, 186);
             this.ltbPesquisar.TabIndex = 4;
+            this.ltbPesquisar.SelectedIndexChanged += new System.EventHandler(this.ltbPesquisar_SelectedIndexChanged);
             // 
             // brnPesquisar
             // 
@@ -117,6 +118,7 @@
             this.brnPesquisar.Text = "&Pesquisar";
             this.brnPesquisar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.brnPesquisar.UseVisualStyleBackColor = true;
+            this.brnPesquisar.Click += new System.EventHandler(this.brnPesquisar_Click);
             // 
             // btnLimpar
             // 
