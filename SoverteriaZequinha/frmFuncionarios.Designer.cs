@@ -31,20 +31,22 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmFuncionarios));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.dtpDataNasc = new System.Windows.Forms.DateTimePicker();
-            this.label7 = new System.Windows.Forms.Label();
+            this.lblDataNasc = new System.Windows.Forms.Label();
             this.mskTelefona = new System.Windows.Forms.MaskedTextBox();
-            this.lblTelefo = new System.Windows.Forms.Label();
+            this.lblTelefone = new System.Windows.Forms.Label();
             this.cbbFuncao = new System.Windows.Forms.ComboBox();
-            this.label5 = new System.Windows.Forms.Label();
+            this.lblFuncao = new System.Windows.Forms.Label();
             this.mskCPF = new System.Windows.Forms.MaskedTextBox();
             this.lblCPF = new System.Windows.Forms.Label();
             this.txtEmail = new System.Windows.Forms.TextBox();
             this.lblEmail = new System.Windows.Forms.Label();
             this.txtNome = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
+            this.lblNome = new System.Windows.Forms.Label();
             this.txtCodigo = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
+            this.lblCodigo = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.txtBairro = new System.Windows.Forms.TextBox();
+            this.lblBairro = new System.Windows.Forms.Label();
             this.txtLogradouro = new System.Windows.Forms.TextBox();
             this.lblLogradouro = new System.Windows.Forms.Label();
             this.cbbUF = new System.Windows.Forms.ComboBox();
@@ -67,8 +69,6 @@
             this.btnAlterar = new System.Windows.Forms.Button();
             this.btnCadastrar = new System.Windows.Forms.Button();
             this.btnNovo = new System.Windows.Forms.Button();
-            this.txtBairro = new System.Windows.Forms.TextBox();
-            this.lblBairro = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.pnlCRUD.SuspendLayout();
@@ -77,19 +77,19 @@
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.dtpDataNasc);
-            this.groupBox1.Controls.Add(this.label7);
+            this.groupBox1.Controls.Add(this.lblDataNasc);
             this.groupBox1.Controls.Add(this.mskTelefona);
-            this.groupBox1.Controls.Add(this.lblTelefo);
+            this.groupBox1.Controls.Add(this.lblTelefone);
             this.groupBox1.Controls.Add(this.cbbFuncao);
-            this.groupBox1.Controls.Add(this.label5);
+            this.groupBox1.Controls.Add(this.lblFuncao);
             this.groupBox1.Controls.Add(this.mskCPF);
             this.groupBox1.Controls.Add(this.lblCPF);
             this.groupBox1.Controls.Add(this.txtEmail);
             this.groupBox1.Controls.Add(this.lblEmail);
             this.groupBox1.Controls.Add(this.txtNome);
-            this.groupBox1.Controls.Add(this.label2);
+            this.groupBox1.Controls.Add(this.lblNome);
             this.groupBox1.Controls.Add(this.txtCodigo);
-            this.groupBox1.Controls.Add(this.label1);
+            this.groupBox1.Controls.Add(this.lblCodigo);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(16, 14);
             this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
@@ -114,17 +114,17 @@
             this.dtpDataNasc.UseWaitCursor = true;
             this.dtpDataNasc.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
             // 
-            // label7
+            // lblDataNasc
             // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(159, 34);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(127, 16);
-            this.label7.TabIndex = 14;
-            this.label7.Text = "Data de nascimento";
-            this.label7.UseWaitCursor = true;
-            this.label7.Click += new System.EventHandler(this.label7_Click);
+            this.lblDataNasc.AutoSize = true;
+            this.lblDataNasc.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDataNasc.Location = new System.Drawing.Point(159, 34);
+            this.lblDataNasc.Name = "lblDataNasc";
+            this.lblDataNasc.Size = new System.Drawing.Size(127, 16);
+            this.lblDataNasc.TabIndex = 14;
+            this.lblDataNasc.Text = "Data de nascimento";
+            this.lblDataNasc.UseWaitCursor = true;
+            this.lblDataNasc.Click += new System.EventHandler(this.label7_Click);
             // 
             // mskTelefona
             // 
@@ -138,17 +138,17 @@
             this.mskTelefona.UseWaitCursor = true;
             this.mskTelefona.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.maskedTextBox2_MaskInputRejected);
             // 
-            // lblTelefo
+            // lblTelefone
             // 
-            this.lblTelefo.AutoSize = true;
-            this.lblTelefo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTelefo.Location = new System.Drawing.Point(334, 78);
-            this.lblTelefo.Name = "lblTelefo";
-            this.lblTelefo.Size = new System.Drawing.Size(61, 16);
-            this.lblTelefo.TabIndex = 12;
-            this.lblTelefo.Text = "Telefone";
-            this.lblTelefo.UseWaitCursor = true;
-            this.lblTelefo.Click += new System.EventHandler(this.label6_Click);
+            this.lblTelefone.AutoSize = true;
+            this.lblTelefone.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTelefone.Location = new System.Drawing.Point(334, 78);
+            this.lblTelefone.Name = "lblTelefone";
+            this.lblTelefone.Size = new System.Drawing.Size(61, 16);
+            this.lblTelefone.TabIndex = 12;
+            this.lblTelefone.Text = "Telefone";
+            this.lblTelefone.UseWaitCursor = true;
+            this.lblTelefone.Click += new System.EventHandler(this.label6_Click);
             // 
             // cbbFuncao
             // 
@@ -169,17 +169,17 @@
             this.cbbFuncao.UseWaitCursor = true;
             this.cbbFuncao.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
-            // label5
+            // lblFuncao
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(165, 78);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(52, 16);
-            this.label5.TabIndex = 9;
-            this.label5.Text = "Função";
-            this.label5.UseWaitCursor = true;
-            this.label5.Click += new System.EventHandler(this.label5_Click);
+            this.lblFuncao.AutoSize = true;
+            this.lblFuncao.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblFuncao.Location = new System.Drawing.Point(165, 78);
+            this.lblFuncao.Name = "lblFuncao";
+            this.lblFuncao.Size = new System.Drawing.Size(52, 16);
+            this.lblFuncao.TabIndex = 9;
+            this.lblFuncao.Text = "Função";
+            this.lblFuncao.UseWaitCursor = true;
+            this.lblFuncao.Click += new System.EventHandler(this.label5_Click);
             // 
             // mskCPF
             // 
@@ -240,17 +240,17 @@
             this.txtNome.UseWaitCursor = true;
             this.txtNome.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
-            // label2
+            // lblNome
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(417, 38);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(44, 16);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "Nome";
-            this.label2.UseWaitCursor = true;
-            this.label2.Click += new System.EventHandler(this.label2_Click);
+            this.lblNome.AutoSize = true;
+            this.lblNome.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNome.Location = new System.Drawing.Point(417, 38);
+            this.lblNome.Name = "lblNome";
+            this.lblNome.Size = new System.Drawing.Size(44, 16);
+            this.lblNome.TabIndex = 2;
+            this.lblNome.Text = "Nome";
+            this.lblNome.UseWaitCursor = true;
+            this.lblNome.Click += new System.EventHandler(this.label2_Click);
             // 
             // txtCodigo
             // 
@@ -265,17 +265,17 @@
             this.txtCodigo.UseWaitCursor = true;
             this.txtCodigo.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
-            // label1
+            // lblCodigo
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(20, 34);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(51, 16);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Código";
-            this.label1.UseWaitCursor = true;
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+            this.lblCodigo.AutoSize = true;
+            this.lblCodigo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCodigo.Location = new System.Drawing.Point(20, 34);
+            this.lblCodigo.Name = "lblCodigo";
+            this.lblCodigo.Size = new System.Drawing.Size(51, 16);
+            this.lblCodigo.TabIndex = 0;
+            this.lblCodigo.Text = "Código";
+            this.lblCodigo.UseWaitCursor = true;
+            this.lblCodigo.Click += new System.EventHandler(this.label1_Click);
             // 
             // groupBox2
             // 
@@ -306,6 +306,31 @@
             this.groupBox2.Text = "Endereço";
             this.groupBox2.UseWaitCursor = true;
             this.groupBox2.Enter += new System.EventHandler(this.groupBox2_Enter);
+            // 
+            // txtBairro
+            // 
+            this.txtBairro.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtBairro.Location = new System.Drawing.Point(468, 37);
+            this.txtBairro.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtBairro.MaxLength = 50;
+            this.txtBairro.Name = "txtBairro";
+            this.txtBairro.Size = new System.Drawing.Size(123, 22);
+            this.txtBairro.TabIndex = 24;
+            this.txtBairro.UseWaitCursor = true;
+            this.txtBairro.TextChanged += new System.EventHandler(this.textBox1_TextChanged_1);
+            // 
+            // lblBairro
+            // 
+            this.lblBairro.AutoSize = true;
+            this.lblBairro.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblBairro.Location = new System.Drawing.Point(425, 40);
+            this.lblBairro.Name = "lblBairro";
+            this.lblBairro.Size = new System.Drawing.Size(43, 16);
+            this.lblBairro.TabIndex = 23;
+            this.lblBairro.Text = "Bairro";
+            this.lblBairro.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            this.lblBairro.UseWaitCursor = true;
+            this.lblBairro.Click += new System.EventHandler(this.label3_Click_1);
             // 
             // txtLogradouro
             // 
@@ -666,31 +691,6 @@
             this.btnNovo.UseWaitCursor = true;
             this.btnNovo.Click += new System.EventHandler(this.button1_Click);
             // 
-            // txtBairro
-            // 
-            this.txtBairro.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtBairro.Location = new System.Drawing.Point(468, 37);
-            this.txtBairro.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.txtBairro.MaxLength = 50;
-            this.txtBairro.Name = "txtBairro";
-            this.txtBairro.Size = new System.Drawing.Size(123, 22);
-            this.txtBairro.TabIndex = 24;
-            this.txtBairro.UseWaitCursor = true;
-            this.txtBairro.TextChanged += new System.EventHandler(this.textBox1_TextChanged_1);
-            // 
-            // lblBairro
-            // 
-            this.lblBairro.AutoSize = true;
-            this.lblBairro.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblBairro.Location = new System.Drawing.Point(425, 40);
-            this.lblBairro.Name = "lblBairro";
-            this.lblBairro.Size = new System.Drawing.Size(43, 16);
-            this.lblBairro.TabIndex = 23;
-            this.lblBairro.Text = "Bairro";
-            this.lblBairro.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            this.lblBairro.UseWaitCursor = true;
-            this.lblBairro.Click += new System.EventHandler(this.label3_Click_1);
-            // 
             // frmFuncionarios
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -722,18 +722,18 @@
 
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.TextBox txtNome;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label lblNome;
         private System.Windows.Forms.TextBox txtCodigo;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblCodigo;
         private System.Windows.Forms.TextBox txtEmail;
         private System.Windows.Forms.Label lblEmail;
         private System.Windows.Forms.Label lblCPF;
         private System.Windows.Forms.MaskedTextBox mskCPF;
-        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label lblFuncao;
         private System.Windows.Forms.ComboBox cbbFuncao;
         private System.Windows.Forms.MaskedTextBox mskTelefona;
-        private System.Windows.Forms.Label lblTelefo;
-        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label lblTelefone;
+        private System.Windows.Forms.Label lblDataNasc;
         private System.Windows.Forms.DateTimePicker dtpDataNasc;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.Label lbCidade;
