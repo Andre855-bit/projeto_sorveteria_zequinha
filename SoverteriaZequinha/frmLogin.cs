@@ -44,10 +44,10 @@ namespace SoverteriaZequinha
 
             string usuario, senha;
 
-            usuario = "calabreso";
-            senha = "1234";
+            usuario = txtUsuario.Text.Trim();
+            senha = txtSenha.Text.Trim();
 
-            if (txtUsuario.Text.Trim().Equals(usuario) && txtSenha.Text.Trim().Equals(senha)) {
+            if (validarUsuario(usuario, senha)) {
 
                 frmMenuPrincipal abrir = new frmMenuPrincipal();
                 abrir.Show();
@@ -116,7 +116,7 @@ namespace SoverteriaZequinha
             RemoveMenu(hMenu, MenuCount, MF_BYCOMMAND);
         }
 
-        private void btnConectar_Click(object sender, EventArgs e)
+        /*private void btnConectar_Click(object sender, EventArgs e)
         {
             Conexao.obterConexao();
 
@@ -124,6 +124,31 @@ namespace SoverteriaZequinha
 
             Conexao.fecharConexao();
             
+        }*/
+
+        //Criando o método validar usuário
+
+        public bool validarUsuario(String usuario, String senha)
+        {
+            MySqlCommand comm = new MySqlCommand();
+            comm.CommandText = "select * from tbUsuarios where nome = @nome and senha = @senha";
+            comm.CommandType = CommandType.Text;
+
+            comm.Parameters.Clear();
+
+            comm.Parameters.Add("@nome", MySqlDbType.VarChar, 50).Value = usuario;
+            comm.Parameters.Add("@senha", MySqlDbType.VarChar, 12).Value = senha;
+
+            comm.Connection = Conexao.obterConexao();
+
+            MySqlDataReader dr;
+            dr = comm.ExecuteReader();
+            dr.Read();
+            bool resp = dr.HasRows;
+
+            Conexao.fecharConexao();
+
+            return resp;
         }
     }
 }
